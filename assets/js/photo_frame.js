@@ -12,8 +12,7 @@ $(document).ready(function () {
         $(".photo_frame .pad").remove()
         $(".photo_frame").each(function () {
             $frame = $(this)
-            $pad = $('<div class="pad">').css('height', $frame.children("img").innerHeight())
-            $frame.append($pad)
+            $frame.css('height', $frame.children("img").innerHeight())
         })
     }
     updateSize();
