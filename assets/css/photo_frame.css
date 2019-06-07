@@ -1,0 +1,91 @@
+.photo_frame {
+    position: relative;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 1rem auto;
+    border: solid 5px white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(20, 20, 20, .7);
+}
+
+.photo_frame .before, .photo_frame .after {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/* make sure enhanced image show on top */
+
+.photo_frame .before {
+    z-index: 0;
+}
+
+.photo_frame .after {
+    z-index: 1;
+    transition: 0s;
+    opacity: 1;
+}
+
+.photo_frame.origin .after {
+    opacity: 0;
+}
+
+.photo_frame .switch {
+    position: absolute;
+    right: 1rem;
+    top: .8rem;
+    width: 3rem;
+    height: 1.2rem;
+    background: greenyellow;
+    background: linear-gradient(to bottom, #00ff08 0%, #00bb06 100%);
+    border: none;
+    border-radius: .47rem;
+    box-shadow: 3px 2px 3px rgba(20, 20, 20, .7);
+    cursor: pointer;
+    z-index: 3;
+    outline: none;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.photo_frame .switch::before {
+    content: '';
+    border-radius: .47rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    background: linear-gradient(to bottom, #ff3131 0%, #e20000 100%);
+    transition: .3s;
+    opacity: 0;
+}
+.photo_frame.origin .switch::before {
+    opacity: 1;
+}
+
+
+.description {
+    width: 90%;
+    padding: 0 5px 0 0;
+    max-width: 50em;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.description h3 {
+    margin-bottom: .2rem;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgba(255,255,255,.9);
+    text-shadow: 2px 2px 4px rgba(30, 30, 30, .9);
+}
+
+.description p {
+    color: white;
+    font-size: 1.05rem;
+}
