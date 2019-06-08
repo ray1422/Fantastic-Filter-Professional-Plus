@@ -11,9 +11,9 @@
         $("#price a").click(function (event) {
             if ($(".custom_price").val() != 0) {
                 window.open('https://core.newebpay.com/EPG/ray_another_world/Dq68yk');
-                window.location = 'https://drive.google.com/drive/folders/1q0tT-Ff7002fkubi2lT1Ya86I4iZVOUP'
+                window.location = 'https://github.com/ray1422/Fantastic-Filter-Desktop/releases'
             } else {
-                window.open('https://drive.google.com/drive/folders/1q0tT-Ff7002fkubi2lT1Ya86I4iZVOUP')
+                window.open('https://github.com/ray1422/Fantastic-Filter-Desktop/releases')
             }
             event.preventDefault();
         })
