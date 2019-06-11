@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function() {
     $(".photo_frame").addClass("origin")
     $(".switch, .after").css('transition', '2s');
     setTimeout(_ => {
