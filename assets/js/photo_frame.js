@@ -12,7 +12,10 @@ $(document).ready(function () {
         $(".photo_frame .pad").remove()
         $(".photo_frame").each(function () {
             $frame = $(this)
-            $frame.css('height', $frame.children("img").innerHeight())
+            $frame.children("img.after").on('load', function(){
+                $(this).parent(".photo_frame").css('height', $frame.children("img").innerHeight())
+            })
+            
         })
     }
     updateSize();

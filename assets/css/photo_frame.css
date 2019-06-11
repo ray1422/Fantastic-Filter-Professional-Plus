@@ -1,14 +1,13 @@
 .photo_frame {
     position: relative;
     width: 90%;
+    height: 30vw;
     max-width: 90vh;
-    height: auto;
     overflow: hidden;
     margin: 1rem auto;
     border: solid 5px white;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(20, 20, 20, .7);
-    height: 30vw;
     background: url('../../images/loading.gif');
     background-size: cover;
     background-position: center;
