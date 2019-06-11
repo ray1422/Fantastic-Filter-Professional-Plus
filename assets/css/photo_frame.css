@@ -1,6 +1,7 @@
 .photo_frame {
     position: relative;
     width: 90%;
+    min-height: 30vw;
     height: 30vw;
     max-width: 90vh;
     overflow: hidden;
@@ -11,7 +12,7 @@
     background: url('../../images/loading.gif');
     background-size: cover;
     background-position: center;
-    transition: .2s;
+    transition: .5s;
 }
 
 .photo_frame .before, .photo_frame .after {
