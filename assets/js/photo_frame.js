@@ -14,6 +14,7 @@ $(document).ready(function () {
             $frame = $(this)
             $frame.children("img.after").on('load', function(){
                 $(this).parent(".photo_frame").css('height', $frame.children("img").innerHeight())
+                console.log(this)
             })
             
         })
