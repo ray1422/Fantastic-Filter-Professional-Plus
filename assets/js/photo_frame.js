@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             $frame.css('height', $frame.children("img").innerHeight())
 
             
-        })}, 3000)
+        })}, 1500)
     }
     updateSize();
 
