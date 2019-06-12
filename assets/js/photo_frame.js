@@ -13,8 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
         $(".photo_frame .pad").remove()
         $(".photo_frame").each(function () {
             $frame = $(this)
-            $frame.css('height', $frame.children("img").innerHeight())
-
+            if($frame.children("img").innerHeight() > 0) {
+                $frame.css('height', $frame.children("img").innerHeight())
+            }
+            else {
+                setTimeout(_=>{
+                    function updateSize()
+                }, 1500)
+            }
             
         })}, 1500)
     }
