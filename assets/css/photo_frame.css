@@ -1,7 +1,6 @@
 .photo_frame {
     position: relative;
     width: 90%;
-    min-height: 30vw;
     height: 30vw;
     max-width: 90vh;
     overflow: hidden;
