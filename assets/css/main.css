@@ -12,7 +12,23 @@
 .center {
 	text-align: center;
 }
-
+#play_badge {
+	max-width: 25em;
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+#play_badge_cr {
+	font-style: italic;
+	font-size: 2vw;
+}
+#play_badge img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
 html,
 body,
 div,
