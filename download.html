@@ -1,4 +1,106 @@
-<script>
-		var lang = localStorage["language"] || 'zh-TW';
-		window.location = './' + lang + '/download.html';
-	</script>
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title data-token="title_download">下載 | 幻想濾鏡</title>
+	<base href="../">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Fantastic Filter </a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="gallery.html">
+							<x-str data-token="gallery" />
+						</a></li>
+					<li>
+						<a href="#" class="icon fa-angle-down">
+							<x-str data-token="language">
+						</a>
+						<ul class="language_selector">
+							<li><a href="#" data-value="en_US">English</a></li>
+							<li><a href="#" data-value="zh_TW">中文（臺灣）</a></li>
+							<li><a href="#" data-value="zh_CN">中文（简体）</a></li>
+						</ul>
+					</li>
+					<li><a href="download.html" class="button">
+							<x-str data-token="download" />
+						</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Main -->
+		<section id="main" class="container">
+			<header>
+				<h2>
+					<x-str data-token="fantastic_filter" />
+				</h2>
+				<p>
+					<x-str data-token="experience_the_art" />
+				</p>
+			</header>
+			<div class="row">
+				<div class="col-12">
+
+					<section class="box center">
+						<h2>
+							<x-str data-token="get_app" />
+						</h2>
+						<a id="play_badge" target="_BLANK"
+							href='https://play.google.com/store/apps/details?id=club.chisc.fantasticfilterandroid&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+								alt='Google Play立即下載'
+								src='https://play.google.com/intl/en_us/badges/images/generic/zh-tw_badge_web_generic.png' /></a>
+						<small id="play_badge_cr">*Google Play 和 Google Play 標誌均為 Google LLC 的商標。</small>
+					</section>
+					<section class="box center">
+						<h2>
+							<x-str data-token="get_legacy_desktop_app" />
+						</h2>
+						<img src="images/app.png" width="80%" />
+						<div id="price">
+							<x-str data-token="pay_what_you_want"></x-str>
+							<input class="button small custom_price" type="number" min="0" value="100"
+								placeholder="自訂" />
+
+							<a href="#" class="button alt small">
+								<x-str data-token="buy" /></a>
+						</div>
+					</section>
+				</div>
+		</section>
+
+
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>
+					<x-str data-token="copyright" />
+				</li>
+			</ul>
+		</footer>
+	</div>
+	<div id="overlay" class="is-preload"></div>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/download_page.js"></script>
+	<script src="assets/js/lang.js"></script>
+
+</body>
+
+</html>

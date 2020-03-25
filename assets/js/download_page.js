@@ -3,9 +3,9 @@
         // https://core.newebpay.com/EPG/ray_another_world/Dq68yk
         $(".custom_price").on('input', function (event) {
             if ($(this).val() == 0) {
-                $("#price a").text("下載");
+                $("#price a").text(LANG['download']);
             } else {
-                $("#price a").text("購買");
+                $("#price a").text(LANG['buy']);
             }
         })
         $("#price a").click(function (event) {

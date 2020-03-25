@@ -23,9 +23,9 @@
 
 	// Play initial animations on page load.
 	$window.on('load', function () {
-		window.setTimeout(function () {
-			$body.removeClass('is-preload');
-		}, 100);
+		// window.setTimeout(function () {
+		// 	$body.removeClass('is-preload');
+		// }, 100);
 	});
 
 	// drdowns.
@@ -81,13 +81,26 @@
 		});
 
 	}
-	$("a[href='info.html']").click(function(event){
+	$("a[href='info.html']").click(function (event) {
 		event.preventDefault()
 		var $body = $("html, body");
-		$body.stop().animate({scrollTop:$("#main").offset().top}, 800, 'swing', function() { 
+		$body.stop().animate({ scrollTop: $("#main").offset().top }, 800, 'swing', function () {
 
 		});
+	})
 
+	$(document).ready(() => {
+		$(".language_selector a").click(function (event) {
+			event.preventDefault();
+			localStorage["language"] = $(this).attr("data-value")
+			window.history.go(0)
+		})
 	})
 
 })(jQuery);
+
+window.onbeforeunload = ()=>{
+	$("#overlay").addClass("is-preload")
+	
+
+}
