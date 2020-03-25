@@ -3,17 +3,17 @@
         // https://core.newebpay.com/EPG/ray_another_world/Dq68yk
         $(".custom_price").on('input', function (event) {
             if ($(this).val() == 0) {
-                $("#price a").text(LANG['download']);
+                $(this).parents(".price").children(".price a").text(LANG['download']);
             } else {
-                $("#price a").text(LANG['buy']);
+                $(this).parents(".price").children(".price a").text(LANG['buy']);
             }
         })
-        $("#price a").click(function (event) {
-            if ($(".custom_price").val() != 0) {
-                window.open('https://core.newebpay.com/EPG/ray_another_world/Dq68yk');
-                window.location = 'https://github.com/ray1422/Fantastic-Filter-Desktop/releases'
+        $(".price a").click(function (event) {
+            if ($(this).parents(".price").children(".custom_price").val() != 0) {
+                window.open($(this).attr("data-payment"));
+                window.location = $(this).attr("data-download");
             } else {
-                window.open('https://github.com/ray1422/Fantastic-Filter-Desktop/releases')
+                window.open($(this).attr("data-download"));
             }
             event.preventDefault();
         })

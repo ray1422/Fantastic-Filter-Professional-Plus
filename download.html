@@ -7,6 +7,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon Bookmark" href="assets/images/favicon.ico" type="image/x-icon" />
+
 </head>
 
 <body class="is-preload">
@@ -48,7 +50,6 @@
 			</header>
 			<div class="row">
 				<div class="col-12">
-
 					<section class="box center">
 						<h2>
 							<x-str data-token="get_app" />
@@ -59,17 +60,41 @@
 								src='https://play.google.com/intl/en_us/badges/images/generic/zh-tw_badge_web_generic.png' /></a>
 						<small id="play_badge_cr">*Google Play 和 Google Play 標誌均為 Google LLC 的商標。</small>
 					</section>
+
+
+					<section class="box center">
+						<h2>
+							<x-str data-token="get_new_desktop_app" />
+						</h2>
+						<img src="images/app_new.png" width="71.%" style="
+							box-shadow: rgba(0, 0, 0, .9) 14px 9px 15px;
+							margin-top: 1.3rem;
+							margin-bottom: 2.7rem;
+						" />
+						<div class="price">
+							<x-str data-token="pay_what_you_want"></x-str>
+							<input class="button small custom_price" type="number" min="0" value="100"
+								placeholder="自訂" />
+
+							<a href="#" class="button alt small"
+								data-payment='https://core.newebpay.com/EPG/ray_another_world/Dq68yk'
+								data-download='https://github.com/ray1422/Fantastic-Filter-Electron/releases'>
+								<x-str data-token="buy" /></a>
+						</div>
+					</section>
+
 					<section class="box center">
 						<h2>
 							<x-str data-token="get_legacy_desktop_app" />
 						</h2>
 						<img src="images/app.png" width="80%" />
-						<div id="price">
+						<div class="price">
 							<x-str data-token="pay_what_you_want"></x-str>
-							<input class="button small custom_price" type="number" min="0" value="100"
-								placeholder="自訂" />
+							<input class="button small custom_price" type="number" min="0" value="100" placeholder="" />
 
-							<a href="#" class="button alt small">
+							<a href="#" class="button alt small"
+								data-payment='https://core.newebpay.com/EPG/ray_another_world/Dq68yk'
+								data-download='https://github.com/ray1422/Fantastic-Filter-Desktop/releases'>
 								<x-str data-token="buy" /></a>
 						</div>
 					</section>
@@ -99,6 +124,7 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/download_page.js"></script>
 	<script src="assets/js/lang.js"></script>
+
 
 </body>
 

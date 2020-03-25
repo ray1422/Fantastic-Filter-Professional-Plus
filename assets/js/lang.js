@@ -16,7 +16,7 @@ $.ajax({
             $(this)[0].outerHTML = replace_str;
         })
         window.title = document.title = LANG[$("title").attr("data-token")]
-        $("#overlay").removeClass('is-preload');
+        main($);
     },
     async: true
 });

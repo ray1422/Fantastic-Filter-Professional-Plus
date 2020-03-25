@@ -20,7 +20,7 @@ LANG = {
 
     'title_download': "下载 | 空想滤镜",
     'experience_the_art': "體驗藝術帶給你前所未有的震撼",
-    'get_app': "体验艺术带给你前所未有的震撼",
+    'get_app': "取得移动版APP",
     'get_new_desktop_app': "取得新版桌面程序",
     'get_legacy_desktop_app': "取得传统桌面程序",
     'pay_what_you_want': "费用随您心意：",

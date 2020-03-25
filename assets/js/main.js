@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function ($) {
+const main = function ($) {
 
 	var $window = $(window),
 		$body = $('body'),
@@ -22,11 +22,11 @@
 	});
 
 	// Play initial animations on page load.
-	$window.on('load', function () {
-		// window.setTimeout(function () {
-		// 	$body.removeClass('is-preload');
-		// }, 100);
-	});
+	
+	window.setTimeout(function () {
+		$("#overlay").removeClass('is-preload');
+	}, 100);
+	
 
 	// drdowns.
 	$('#nav > ul').dropotron({
@@ -97,7 +97,7 @@
 		})
 	})
 
-})(jQuery);
+}
 
 window.onbeforeunload = ()=>{
 	$("#overlay").addClass("is-preload")

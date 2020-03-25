@@ -20,7 +20,7 @@ LANG = {
 
     'title_download': "下載 | 幻想濾鏡",
     'experience_the_art': "體驗藝術帶給你前所未有的震撼",
-    'get_app': "體驗藝術帶給你前所未有的震撼",
+    'get_app': "取得行動版APP",
     'get_new_desktop_app': "取得新版桌面軟體",
     'get_legacy_desktop_app': "取得傳統桌面軟體",
     'pay_what_you_want': "費用隨您心意：",
@@ -41,4 +41,4 @@ LANG = {
     "riverbank_description": "高高的堤防阻擋的是洪水、是階層、是夢想。",
 
 
-}
+};
