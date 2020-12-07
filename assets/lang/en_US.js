@@ -32,7 +32,7 @@ LANG = {
     "mqxr": "Minquan W. Road",
     "mqxr_description": "At the crossroads during off-hours, workers are rushing home, looking forward to the realization of their dreams.",
     "fisherman_wharf": "Fisherman's Wharf",
-    "fisherman_wharf_description": "Even the sunset is beautiful,after all, it will fall below the sea level.",
+    "fisherman_wharf_description": "Even the sunset is beautiful, after all, it will fall below the sea level.",
     "taipei_101": "Taipei 101",
     "taipei_101_description": "Flares, lights, stories, families. All of them are hopeful, but where's the sadness behind the warm scene?",
     "expressway": "Expressway",
