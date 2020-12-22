@@ -20,6 +20,10 @@ LANG = {
 
     'title_download': "Download | Fantastic Filter",
     'experience_the_art': "Experience the power of art",
+    'get_cli_tool': "Get Command Line Interface Tool",
+    'pure_cli': "Who Doesn't Like Text Interface?",
+    'ff_benchmark': "Fantastic Filter Benchmark",
+    'cmp_to_world': "Compare to The World",
     'get_app': "Get App",
     'get_new_desktop_app': "Get New Desktop Application",
     'get_legacy_desktop_app': "Get Legacy Desktop Application",

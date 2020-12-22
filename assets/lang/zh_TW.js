@@ -20,6 +20,10 @@ LANG = {
 
     'title_download': "下載 | 幻想濾鏡",
     'experience_the_art': "體驗藝術帶給你前所未有的震撼",
+    'get_cli_tool': "取得命令列界面工具",
+    'pure_cli': "厭倦圖形化使用者界面了嗎？一同享受文字界面的簡潔吧！",
+    'ff_benchmark': "幻想濾鏡 效能基準測試",
+    'cmp_to_world': "與世界各地的使用者一較高下",
     'get_app': "取得行動版APP",
     'get_new_desktop_app': "取得新版桌面軟體",
     'get_legacy_desktop_app': "取得傳統桌面軟體",

@@ -19,7 +19,11 @@ LANG = {
     'button_unavailable': "按钮维护中",
 
     'title_download': "下载 | 空想滤镜",
-    'experience_the_art': "體驗藝術帶給你前所未有的震撼",
+    'experience_the_art': "体验艺术带给你前所未有的震撼",
+    'get_cli_tool': "取得命令行界面工具",
+    'pure_cli': "厌倦图形化使用者界面了吗？一同享受文字界面的简洁吧！",
+    'ff_benchmark': "空想滤镜 效能基准测试",
+    'cmp_to_world': "与世界各地的使用者一较高下",
     'get_app': "取得移动版APP",
     'get_new_desktop_app': "取得新版桌面程序",
     'get_legacy_desktop_app': "取得传统桌面程序",
